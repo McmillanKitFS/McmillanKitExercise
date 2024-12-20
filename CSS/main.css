@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: lucida Sans regular;
+  color: rgb(53, 51, 54);
+}
+/* Body Section */
+body {
+  color: #4d453a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.44rem;
+  background-color: bisque;
+  line-height: 24px;
+}
+header/*  For h1,img and ul*/ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  flex-flow: row wrap;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: left;
+  text-shadow: 2px 2px #c0babf;
+  margin-bottom: 1.2rem;
+  padding: 3px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: 2px solid #4d453a;
+  border-radius: 5px;
+  max-width: 100%;
+}
+/* paragraph */
+p {
+  margin: auto;
+  display: block;
+}
+a {
+  font-weight: 700;
+}
+/* List */
+ul {
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-flow: row wrap;
+  flex: 1;
+}
+/* Flew flow is to make row and have it wrap when the window shrinks  */
+a {
+  text-decoration: none;
+  color: #4d453a;
+}
+a:hover {
+  color: rgb(116, 113, 115);
+}
+
+#wrapper {
+  width: 77%;
+  padding: 1rem;
+  margin: auto;
+  border: 3px solid #c8ac85;
+  border-radius: 5px;
+  background-color: rgb(163, 151, 131);
+}
+h2 {
+  text-shadow: 2px 2px #6d6c6d;
+  text-decoration: none;
+}
